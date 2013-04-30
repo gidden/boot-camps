@@ -2,7 +2,7 @@
 
 UW-Madison Software Carpentry Boot Camp
 =======================================
-Welcome!
+Hi and Welcome!
 
 April 29 & 30, 2013
 --------------------
