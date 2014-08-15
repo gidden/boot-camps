@@ -4,15 +4,15 @@ UW-Madison Software Carpentry Boot Camp
 =======================================
 Welcome!
 
-August 4, 7, 8, 11; 2014
+August 25 & 26, 2014
 --------------------
 
-Waisman Center, John D Wiley Conference Room
+Discovery Building
 ------------------
 
 This repository contains the course material for the upcoming Software
 Carpentry boot camp being hosted by the Advanced Computing
-Infrastructure organization for the Davidson&Others group at the UW-Madison.
+Infrastructure organization at the UW-Madison.
 
 Schedule
 -----------
@@ -22,60 +22,40 @@ recent paper "Best Practices for Scientific Computing" by G. Wilson,
 et al. In so doing, the sessions names have been chosen to correspond
 with some of the most important practices to start early.
 
-Setup and Preparation
------------
-
-You will need to bring a laptop to all sessions of the bootcamp. If you 
-are using a Windows laptop, please install the [Putty](https://www.putty.org) 
-software, which will allow you to connect to the boot camp server. Linux 
-and Mac laptops will not need to install additional software, as the 
-Terminal application will be used to connect to the server.
-
 Day 1
 =======
 
 | Time         | Topic                                   | Instructor   |
 | ------------ | --------------------------------------- |--------------|
-| 1:00-1:15    | Setup & Intro                           | All  |
-| 1:15-1:45    | [If it's not reproducible, it is still science?](https://github.com/UW-Madison-ACI/boot-camps/blob/2014-08-04-Davidson/BestPractices.pdf?raw=true) | Paul Wilson  |
-| 1:45-3:15    | [Introducing the Shell](shell/Readme.md)| Lauren Michael  |
-| 3:15-3:30    | Break                                   |              |
-| 3:30-5:00    | [Let the Computer Do the Work](shell/automation/Readme.md)     | Lauren Michael  |
+| 8:30-9:00    | Setup & Intro                           | Paul Wilson  |
+| 9:00-9:15    | What We Know about Software Engineering | Paul Wilson  |
+| 9:15-10:45   | [Introducing the Shell](shell/Readme.md)| Lauren Michael  |
+| 10:45-11:00  | Break                                   |              |
+| 11:00-12:30  | [Automating Workflows](shell/automation/Readme.md)     | Daijiang Li  |
+| 12:30-1:30   | Lunch                                   |              |
+| 1:30-2:30    | [Write Code for People](python/writing_code_for_people/Readme.md)| Paul Wilson |
+| 2:30-2:45    | Break                                   |              |
+| 2:45-4:00    | [Don't Repeat Yourself](python/dont_repeat_yourself/Readme.md)| Paul Wilson |
+| 4:00-4:30    | [Use Version Control](version-control/git/local/Readme.md)| Karl Broman |
 
 Day 2
-=======
-
-| Time         | Topic                                   | Instructor   |
-| ------------ | --------------------------------------- |--------------|
-| 1:00-2:15    | [Write Code for People](python/writing_code_for_people/Readme.md)| Nate Vack |
-| 2:15-2:30    | Break                                   |              |
-| 2:30-3:30    | [Write Code for People (cont.)](python/writing_code_for_people/Readme.md),[Don't Repeat Yourself](python/dont_repeat_yourself/Readme.md)| Nate Vack, Danielle Nielsen |
-| 3:30-3:45    | Break					 |		|
-| 3:45-4:30p   | [Don't Repeat Yourself (cont.)](python/dont_repeat_yourself/Readme.md)| Danielle Nielsen |
-
-Day 3
-=======
+======
 
 | Time         | Topic                                   | Instructor  |
 | ------------ | --------------------------------------- |-------------|
-| 1:00-2:30    | [Make Incremental Changes](version-control/git/local/Readme.md) | Cliff Rodgers |
-| 2:30-2:45    | Break                                   |             |
-| 2:45-4:30    | [Plan for Mistakes](python/testing/Readme.md) | Paul Wilson |
-
-Day 4
-=======
-
-| Time         | Topic                                   | Instructor   |
-| ------------ | --------------------------------------- |--------------|
-| 1:00-2:00    | [Make Incremental Changes - Remote](version-control/git/mobility/Readme.md) | Paul Wilson |
-| 2:00-2:15    | Break                                   |      |
-| 2:15-3:15    | [Collaborate](version-control/git/remote/Readme.md) | Paul Wilson |
-| 3:15-3:30    | Break					 | 	|
-| 3:30-4:30    | Guided Next Steps and Discussion	 | all	|
+| 9:00-9:45    | [Don't Repeat Others](python/dont_repeat_yourself/Readme.md) | Paul Wilson |
+| 9:45-10:45   | [More Version Control](version-control/git/local/Readme.md) | Karl Broman |
+| 10:45-11:00  | Break                                   |             |
+| 11:00-12:00  | [Plan for Mistakes](python/testing/Readme.md) | Matt Gidden |
+| 12:00-1:00   | Lunch                                   |             |
+| 1:00-2:30    | [Working at Home and the Office](version-control/git/remote/Readme.md) | Matt Gidden |
+| 2:30-2:45    | Break                                   |      |
+| 2:45-4:00    | [Collaborate](version-control/git/remote/Readme.md) | Matt Gidden |
+| 4:00-4:30    | Wrapping it All Up                            | All |
 
 Coincidence?
 ============
 
-On the first day of our first boot camp (April 29, 2013), we were offered this [XKCD Comic](http://xkcd.com/1205/):
+On the first day of our boot camp, we were offered this [XKCD Comic](http://xkcd.com/1205/):
 ![Today's XKCD Comic](http://imgs.xkcd.com/comics/is_it_worth_the_time.png)
 
